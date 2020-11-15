@@ -63,5 +63,5 @@ FOUNDATION_EXPORT const unsigned char CMIDIVersionString[];
 #import <CMIDI/CMIDIMessage+DescriptionWithTime.h>
 #import <CMIDI/CMIDIFile+DescriptionWithTime.h>
 
-
+#import <CMIDI/CMIDIDataParser.h>
 

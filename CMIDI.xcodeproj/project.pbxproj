@@ -82,7 +82,7 @@
 		366710731BAF4A0E00B61D27 /* CMIDIClock+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3667103C1BAF4A0E00B61D27 /* CMIDIClock+NSCoding.m */; };
 		366710751BAF4A0E00B61D27 /* CMIDIClock+TimeString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3667103E1BAF4A0E00B61D27 /* CMIDIClock+TimeString.m */; };
 		366710761BAF4A0E00B61D27 /* CMIDIClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3667103F1BAF4A0E00B61D27 /* CMIDIClock.m */; };
-		366710771BAF4A0E00B61D27 /* CMIDIDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 366710411BAF4A0E00B61D27 /* CMIDIDataParser.h */; };
+		366710771BAF4A0E00B61D27 /* CMIDIDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 366710411BAF4A0E00B61D27 /* CMIDIDataParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		366710781BAF4A0E00B61D27 /* CMIDIDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 366710421BAF4A0E00B61D27 /* CMIDIDataParser.m */; };
 		366710791BAF4A0E00B61D27 /* CMIDIDataParser+MIDIPacketList.h in Headers */ = {isa = PBXBuildFile; fileRef = 366710441BAF4A0E00B61D27 /* CMIDIDataParser+MIDIPacketList.h */; };
 		3667107A1BAF4A0E00B61D27 /* CMIDIDataParser+MIDIPacketList.m in Sources */ = {isa = PBXBuildFile; fileRef = 366710451BAF4A0E00B61D27 /* CMIDIDataParser+MIDIPacketList.m */; };
@@ -1138,6 +1138,7 @@
 				36521FC31BD947B7008A5609 /* CMIDIMessage+Simplified.h in Headers */,
 				362FF0801BC9C65B001EA833 /* CTime.h in Headers */,
 				366710791BAF4A0E00B61D27 /* CMIDIDataParser+MIDIPacketList.h in Headers */,
+				366710771BAF4A0E00B61D27 /* CMIDIDataParser.h in Headers */,
 				362FF07B1BC9C65B001EA833 /* CMusicTempoMeter+BackwardCompatibility.h in Headers */,
 				362FF0811BC9C65B001EA833 /* CTimeHierarchy.h in Headers */,
 				3667102D1BAF4A0400B61D27 /* CMIDIMonitor.h in Headers */,
@@ -1160,7 +1161,6 @@
 				366710321BAF4A0400B61D27 /* CMIDITempoMeter.h in Headers */,
 				366710271BAF4A0400B61D27 /* CMIDIMessage+ChannelMessage.h in Headers */,
 				36FA99391BE08A14007A466B /* CAUGraph.h in Headers */,
-				366710771BAF4A0E00B61D27 /* CMIDIDataParser.h in Headers */,
 				362FF07D1BC9C65B001EA833 /* CMusicWesternHarmony+Description.h in Headers */,
 				3667102B1BAF4A0400B61D27 /* CMIDIMessage+SystemMessage.h in Headers */,
 				3667102F1BAF4A0400B61D27 /* CMIDISequence+FileIO.h in Headers */,
@@ -1230,6 +1230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 36670FDF1BAF473E00B61D27;
